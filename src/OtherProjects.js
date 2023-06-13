@@ -1,32 +1,26 @@
 export const OtherProjects = [
   {
-    name: "Portfolio Website",
+    name: "Worklog",
     description:
-      "This portfolio is made using React.js , Tailwind CSS, React Icons and JS(ES-7).",
-    link: "https://github.com/Kawaljeet2001/Portfolio",
+      "This website is built for employers or managers who can keep a check on their employees work everyday",
+    link: "https://github.com/AmanPachori/Worklog",
   },
   {
-    name: "Live Covid-19 Cases Tracker",
+    name: "Transito",
     description:
-      "The website helps you track Covid-19 stats all around the world and all Indian states.",
-    link: "https://github.com/Kawaljeet2001/Live-Covid-19Tracker",
+      "A web app which llow users to track their transaction history on Ethereum Blockchain",
+    link: "https://github.com/AmanPachori/transito",
   },
   {
-    name: "IPL First Innings Score Prediction",
+    name: "Testing Api",
     description:
-      "This project uses machine learning regression approach to predict the first inning score of an IPL match, based on previous year cricket matches.",
-    link: "https://github.com/Kawaljeet2001/IPL-First-Innings-Score-Prediction",
+      "A simple web API developed with ExpressJs, Nodemon and tested using Chai, Mocha and Supertest.",
+    link: "https://github.com/AmanPachori/addressBook-Api",
   },
   {
-    name: "Micro-Blogging Platform",
+    name: "Bookstore",
     description:
-      "BLOG MASTER is a blogging platform that lets its user to Create , Edit , Publish and share their blogs.",
-    link: "https://github.com/Kawaljeet2001/IPL-First-Innings-Score-Prediction",
-  },
-  {
-    name: "React - Firebase Todo List App",
-    description:
-      "This is a minimalistic Todo App made using React Hooks, Firebase Firestore, and Material Ui.",
-    link: "https://github.com/Kawaljeet2001/React-Firebase-TodoApp",
+      "The goal of the Bookstore backend created with Golang and MySQL is to provide a robust and efficient system for managing book-related operations, such as book inventory management, customer transactions, and order processing ",
+    link: "https://github.com/AmanPachori/BookStore",
   },
 ];

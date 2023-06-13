@@ -1,65 +1,32 @@
 export const majorProjects = [
   {
-    name: "Worklog",
+    name: "Blog App",
     description:
-      "A platform designed for leading digital artists around the globe to showcase their work and create an online presence for their brand. Create your portfolio, demonstrate your talent to recruiters and pave the way ahead for your bright career as an artist.",
-    githubLink: "https://github.com/Kawaljeet2001/Artistify-Community-Platform",
-    liveLink: "https://artistifycommunity.netlify.app/",
-    demoLink: "https://youtu.be/E302nz_ihtA",
+      "The goal of the Blog App created with the MERN stack (MongoDB, Express.js, React, Node.js) is to provide a feature-rich platform for users to create, publish, and manage blog posts.",
+    githubLink: "https://github.com/AmanPachori/Blog-App",
+    liveLink: "https://blog-app-pi-one.vercel.app/",
+    demoLink: "",
     imgLink:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-b8622.appspot.com/o/ii2.png?alt=media&token=33026fca-adcf-40be-b6a1-a3844065a948",
+      "https://user-images.githubusercontent.com/84467090/211310560-99f508c4-6af1-4bee-a96d-3fe3c3f81e9c.png",
     tools: [
-      "React.js",
-      "Redux",
+      "React",
       "MongoDB Atlas",
       "Node.js",
       "Express.js",
-      "Tailwind CSS",
-      "Nodemailer",
-      "Firebase",
+      "Bootstrap CSS",
       "JWT",
-      "Heroku",
+      "Vercel",
     ],
   },
   {
-    name: "Content Based Movie Recommendation System",
+    name: "Electronic Medical Record Manager",
     description:
-      "This is the Movie Recommendation System project using a Content-Based recommender system trained on more than 5000 movies for generating movie recommendations based on user search.",
-    githubLink: "https://github.com/Kawaljeet2001/Movie-Recommendation-System",
-    liveLink: "https://movierecsys-ksb.herokuapp.com/",
+      "We have implemented three different logins (Owner, Hospitals, Patient) according to who has logged in to the web application the navigation bar changes dynamically,",
+    githubLink: "https://github.com/AmanPachori/EMR",
+    liveLink: "https://github.com/AmanPachori/EMR",
     demoLink: "",
     imgLink:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-b8622.appspot.com/o/4.png?alt=media&token=286f0192-7a63-4e73-a7fa-4a0203209658",
-    tools: [
-      "React.js",
-      "Flask",
-      "Tmdb API",
-      "CSS",
-      "Scikit Learn",
-      "Count Vectorizer",
-      "Numpy",
-      "Pandas",
-      "Heroku",
-    ],
-  },
-  {
-    name: "Data Encryption using Image Steganographic methods",
-    description:
-      "The project discusses about existing and novel approaches of using Image Steganography to encrypt and share data. The principle is to hide sensitive data in carrier images and transmit those images over communication channel.",
-    githubLink:
-      "https://github.com/Kawaljeet2001/Date-Encryption-by-Image-Steganography",
-    liveLink: "",
-    demoLink: "",
-    imgLink:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-b8622.appspot.com/o/Screenshot%20(2846).png?alt=media&token=8faceabb-2e9f-45f1-9ef8-e7afcecfd9b7",
-    tools: [
-      "React.js",
-      "Python",
-      "Flask",
-      "Pillow",
-      "Javasscript",
-      "Tailwind CSS",
-      "Firebase",
-    ],
+      "https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/c3e5991984e3466bb0ffebf017252b36/projects/41dc2961a8f3478da0bf3c5679b2dee4/06d3cc3c-64d6-4b35-b784-efe5fc3ebdc3.jpeg",
+    tools: ["Next.js", "Bootstrap"],
   },
 ];
