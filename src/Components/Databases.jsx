@@ -5,7 +5,7 @@ import { SiPostgresql, SiRedis } from "react-icons/si";
 const Databases = () => {
   return (
     <div
-      className="flex flex-col items-start py-4 px-6 w-full rounded-lg col-span-12 lg:col-span-4"
+      className="flex flex-col items-start py-4 px-6 w-[90vw] lg:w-full rounded-lg col-span-12 lg:col-span-4"
       style={{
         boxShadow:
           "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
@@ -23,10 +23,6 @@ const Databases = () => {
         <div className="flex flex-col items-center mx-3 my-4">
           <SiPostgresql className="text-3xl md:text-5xl text-gray-400" />
           <p className="text-lightGreen text-sm md:text-base ">PostgreSQL</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 my-4">
-          <SiRedis className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Redis</p>
         </div>
         <div className="flex flex-col items-center mx-3 my-4">
           <DiMongodb className="text-3xl md:text-5xl text-gray-400" />
