@@ -9,7 +9,7 @@ module.exports = {
       lightblue: "#8da9c4",
       grey: "#edf2f4",
       slateGrey: "#2D2E32",
-      lightGreen: "#6EF3A5",
+      lightGreen: "#38bdf8",
       darkGrey: "#25262A",
     }),
 
@@ -19,7 +19,7 @@ module.exports = {
       lightblue: "#8da9c4",
       grey: "#edf2f4",
       slateGrey: "#2D2E32",
-      lightGreen: "#6EF3A5",
+      lightGreen: "#38bdf8",
       darkGrey: "#25262A",
     }),
     // borderColor: (theme) => ({
@@ -33,8 +33,8 @@ module.exports = {
     // }),
     boxShadow: (theme) => ({
       ...theme("colors"),
-      'navbar': '0 2px 10px #000',
-    })
+      navbar: "0 2px 10px #000",
+    }),
   },
   variants: {
     extend: {},
