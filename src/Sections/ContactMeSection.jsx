@@ -21,25 +21,19 @@ import FormFieldError from "../Components/FormFieldError";
 const detailsCards = [
   {
     name: "Email",
-    value: "batrakawaljeetsingh@gmail.com",
+    value: "amangirrajpachori2002@gmail.com",
     icon: <FiMail className="text-2xl text-white" />,
     url: EMAIL_URL,
   },
   {
     name: "LinkedIn",
-    value: "@kawaljeetsinghbatra",
+    value: "@AmanPachori",
     icon: <FaLinkedinIn className="text-2xl text-white" />,
     url: LINKEDIN_URL,
   },
   {
-    name: "Instagram",
-    value: "@kawaljeet_sb",
-    icon: <AiFillInstagram className="text-2xl text-white" />,
-    url: INSTAGRAM_URL,
-  },
-  {
     name: "Location",
-    value: "Ghaziabad, U.P India",
+    value: "Gwalior, M.P. India",
     icon: <ImLocation className="text-2xl text-white" />,
     url: LOCATION_URL,
   },

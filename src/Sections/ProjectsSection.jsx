@@ -8,8 +8,8 @@ import SwiperCore, { Navigation } from "swiper";
 import OtherProjectCard from "../Components/OtherProjectCard";
 import { majorProjects } from "../MajorProjects";
 import { OtherProjects } from "../OtherProjects";
-import {BsArrowRight} from "react-icons/bs";
-import {GITHUB_URL} from "../Constants";
+import { BsArrowRight } from "react-icons/bs";
+import { GITHUB_URL } from "../Constants";
 
 SwiperCore.use([Navigation]);
 
@@ -19,9 +19,11 @@ const ProjectsSection = ({ reference }) => {
       className="flex flex-col items-center justify-center w-full py-24  bg-slateGrey"
       ref={reference}
     >
-      <h3 className="text-white font-bold text-center text-3xl md:text-5xl ">Projects</h3>
+      <h3 className="text-white font-bold text-center text-3xl md:text-5xl ">
+        Projects
+      </h3>
       <p className="text-lightGreen font-medium mt-2">Most Recent Works</p>
-      <div className="flex items-center w-full justify-center mt-12 px-2 md:px-10">
+      <div className="flex items-center w-full justify-center mt-12 px-2 md:px-10 min-h-44">
         <Swiper
           navigation={true}
           className="mySwiper w-full flex items-center justify-center"
@@ -60,7 +62,8 @@ const ProjectsSection = ({ reference }) => {
               rel="noreferrer"
               className="text-lightGreen text-lg font-medium px-3 py-2 rounded-md flex items-center justify-center mt-3 hover:underline transition duration-200"
             >
-              All Projects&nbsp;<BsArrowRight/>
+              All Projects&nbsp;
+              <BsArrowRight />
             </a>
           </div>
         </div>
