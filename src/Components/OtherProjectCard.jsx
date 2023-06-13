@@ -3,7 +3,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 const OtherProjectCard = ({ name, description, link }) => {
   return (
-    <div className="rounded-lg bg-darkGrey p-4 flex flex-col justify-between items-start h-[328px] lg:h-[200px] mx-2">
+    <div className="rounded-lg bg-darkGrey p-4 flex flex-col justify-between items-start h-[328px] lg:h-[230px] mx-2">
       <div>
         <h3 className="text-gray-300 font-bold">{name}</h3>
         <p className="mt-2 text-sm text-gray-500">{description}</p>
