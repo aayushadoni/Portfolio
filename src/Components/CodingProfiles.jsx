@@ -5,7 +5,7 @@ import { LEETCODE_URL, GEEKSFORGEEKS_URL, HACKERRANK_URL } from "../Constants";
 const CodingProfiles = () => {
   return (
     <div
-      className="flex flex-col items-start pt-4 pb-8 px-8 w-full rounded-lg col-span-12 lg:col-span-4"
+      className="flex flex-col items-start pt-4 pb-8 px-8 w-[90vw] rounded-lg col-span-12 lg:col-span-4"
       style={{
         boxShadow:
           "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
