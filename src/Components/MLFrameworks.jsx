@@ -1,16 +1,25 @@
-import React from 'react'
-import {SiPandas, SiNumpy, SiScikitlearn, SiTensorflow,SiKeras,SiPlotly } from "react-icons/si";
+import React from "react";
+import {
+  SiPandas,
+  SiNumpy,
+  SiScikitlearn,
+  SiTensorflow,
+  SiKeras,
+  SiPlotly,
+} from "react-icons/si";
 
 const MLFrameworks = () => {
   return (
     <div
-      className="flex flex-col items-start py-4 px-6 w-full rounded-lg col-span-12 lg:col-span-4"
+      className="flex flex-col items-start py-4 px-6 w-[90vw] rounded-lg col-span-12 lg:col-span-4"
       style={{
         boxShadow:
           "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
       }}
     >
-      <h3 className="text-white font-bold text-xl mt-2">Machine Learning/Deep Learning Tools</h3>
+      <h3 className="text-white font-bold text-xl mt-2">
+        Machine Learning/Deep Learning Tools
+      </h3>
       <p className="text-gray-500 text-sm mt-1">
         ML/DL tools that I have experience with
       </p>
@@ -41,7 +50,7 @@ const MLFrameworks = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default MLFrameworks
+export default MLFrameworks;

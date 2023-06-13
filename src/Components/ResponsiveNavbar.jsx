@@ -97,14 +97,14 @@ const ResponsiveNavbar = ({
   window.addEventListener("scroll", handleAutomaticSectionChange);
   return (
     <div
-      className={`font-sans fixed md:hidden bottom-0 rounded-t-2xl pb-4 shadow-navbar transition duration-300 text-white bg-slateGrey z-30 w-full px-2 `}
+      className={`font-sans fixed md:hidden bottom-0 rounded-t-2xl pb-4 shadow-navbar transition duration-300 text-white bg-slateGrey z-30 w-[90vw]`}
     >
       <div className="flex items-center justify-center">
         <a
           href="/"
           className="flex text-white md:text-lightGreen font-medium text-lg w-4/12 md:w-3/12 cursor-pointer font-sans"
         >
-          Kawaljeet
+          Aman
         </a>
         <div className="flex items-center py-2 md:py-2 md:justify-end w-6/12 md:w-3/12 font-mono">
           {RESPONSIVE_NAVBAR_SOCIAL_ICONS.map((item, index) => (
@@ -124,7 +124,7 @@ const ResponsiveNavbar = ({
             onClick={toggleAccordion}
           >
             <MdKeyboardArrowUp
-              className={`text-2xl ml-8 transition duration-300 ${
+              className={`text-2xl ml-4 transition duration-300 ${
                 activeState === "active" ? "transform rotate-180" : ""
               }`}
             />

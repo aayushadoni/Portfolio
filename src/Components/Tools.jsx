@@ -1,11 +1,17 @@
 import React from "react";
-import { FaGitAlt, FaGithub, FaAws } from "react-icons/fa";
+import { FaGitAlt, FaGithub, FaAws, FaGitlab } from "react-icons/fa";
 import { DiHeroku } from "react-icons/di";
-import { SiNetlify, SiPostman, SiFirebase, SiDocker,  } from "react-icons/si";
+import {
+  SiNetlify,
+  SiPostman,
+  SiFirebase,
+  SiDocker,
+  SiVercel,
+} from "react-icons/si";
 const Tools = () => {
   return (
     <div
-      className="flex flex-col items-start py-4 px-6 w-full rounded-lg col-span-12 lg:col-span-4"
+      className="flex flex-col items-start py-4 px-6 w-[90vw] lg:w-full rounded-lg col-span-12 lg:col-span-4"
       style={{
         boxShadow:
           "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
@@ -29,8 +35,8 @@ const Tools = () => {
           <p className="text-sm md:text-base text-lightGreen">Postman</p>
         </div>
         <div className="flex flex-col items-center mx-3 my-4">
-          <FaAws className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-sm md:text-base text-lightGreen">AWS</p>
+          <FaGitlab className="text-3xl md:text-5xl text-gray-400" />
+          <p className="text-sm md:text-base text-lightGreen">Gitlab</p>
         </div>
         <div className="flex flex-col items-center mx-3 my-4">
           <SiDocker className="text-3xl md:text-5xl text-gray-400" />
@@ -42,8 +48,8 @@ const Tools = () => {
         </div>
 
         <div className="flex flex-col items-center mx-3 my-4">
-          <SiFirebase className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-sm md:text-base text-lightGreen">Firebase</p>
+          <SiVercel className="text-3xl md:text-5xl text-gray-400" />
+          <p className="text-sm md:text-base text-lightGreen">Vercel</p>
         </div>
         <div className="flex flex-col items-center mx-3 my-4">
           <DiHeroku className="text-3xl md:text-5xl text-gray-400" />
