@@ -1,19 +1,13 @@
 import React from "react";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { DiDjango } from "react-icons/di";
 import {
   SiTailwindcss,
-  SiRedux,
   SiNextdotjs,
-  SiNestjs,
-  SiSvelte,
   SiBootstrap,
-  SiLeaflet,
-  SiJest,
-  SiChai,
   SiMocha,
+  SiOpenzeppelin,
+  SiWeb3Dotjs
 } from "react-icons/si";
-import { RiVuejsLine } from "react-icons/ri";
 
 const Frameworks = () => {
   return (
@@ -40,16 +34,16 @@ const Frameworks = () => {
           <p className="text-lightGreen text-sm md:text-base ">Next Js</p>
         </div>
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
-          <RiVuejsLine className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Vue Js</p>
+          <SiOpenzeppelin className="text-3xl md:text-5xl text-gray-400" />
+          <p className="text-lightGreen text-sm md:text-base ">Openzeppelin</p>
         </div>
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <FaNodeJs className="text-3xl md:text-5xl text-gray-400" />
           <p className="text-lightGreen text-sm md:text-base ">Node Js</p>
         </div>
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
-          <SiSvelte className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Svelte Js</p>
+          <SiWeb3Dotjs className="text-3xl md:text-5xl text-gray-400" />
+          <p className="text-lightGreen text-sm md:text-base ">Web3 JS</p>
         </div>
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <SiBootstrap className="text-3xl md:text-5xl text-gray-400" />
@@ -58,18 +52,6 @@ const Frameworks = () => {
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <SiTailwindcss className="text-3xl md:text-5xl text-gray-400" />
           <p className="text-lightGreen text-sm md:text-base ">Tailwind CSS</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
-          <SiLeaflet className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Leaflet</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
-          <SiJest className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Jest</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
-          <SiChai className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Chai</p>
         </div>
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <SiMocha className="text-3xl md:text-5xl text-gray-400" />

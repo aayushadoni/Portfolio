@@ -1,26 +1,26 @@
 export const OtherProjects = [
   {
-    name: "Worklog",
+    name: "Portfolio Website",
     description:
-      "This website is built for employers or managers who can keep a check on their employees work everyday",
-    link: "https://github.com/AmanPachori/Worklog",
+        "This portfolio is made using React.js , Tailwind CSS, React Icons and JS(ES-7).",
+    link: "https://github.com/Kawaljeet2001/Portfolio",
   },
   {
-    name: "Transito",
+    name: "Blog App",
     description:
-      "A web app which llow users to track their transaction history on Ethereum Blockchain",
-    link: "https://github.com/AmanPachori/transito",
+        "A basic blog website using React.js, Express.js and MongoDB.",
+    link: "https://github.com/aayushadoni/Blog-App",
   },
   {
-    name: "Testing Api",
+    name: "Governance and DAO's",
     description:
-      "A simple web API developed with ExpressJs, Nodemon and tested using Chai, Mocha and Supertest.",
-    link: "https://github.com/AmanPachori/addressBook-Api",
+        "This is smart contract written in solidity allowing the token holders to initiate and vote for a proposal.",
+    link: "https://github.com/aayushadoni/Dao_",
   },
   {
-    name: "Bookstore",
+    name: "KickStarter",
     description:
-      "The goal of the Bookstore backend created with Golang and MySQL is to provide a robust and efficient system for managing book-related operations, such as book inventory management, customer transactions, and order processing ",
-    link: "https://github.com/AmanPachori/BookStore",
+        "Kickstarter is a crowdfunding platform that enables individuals and organizations to raise funds for creative projects and innovative ideas through community support.",
+    link: "https://github.com/aayushadoni/kickstart",
   },
 ];

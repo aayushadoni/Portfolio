@@ -34,12 +34,6 @@ const ResponsiveNavbar = ({
       icon: <AiOutlineSetting className="text-3xl" />,
     },
     {
-      name: "Experience",
-      divid: "experiencesection",
-      ref: experienceSectionRef,
-      icon: <RiContactsBookLine className="text-3xl" />,
-    },
-    {
       name: "Projects",
       divid: "projects",
       ref: projectsSectionRef,
@@ -104,7 +98,7 @@ const ResponsiveNavbar = ({
           href="/"
           className="flex text-white md:text-lightGreen font-medium text-lg w-4/12 md:w-3/12 cursor-pointer font-sans"
         >
-          Aman
+          Aayush
         </a>
         <div className="flex items-center py-2 md:py-2 md:justify-end w-6/12 md:w-3/12 font-mono">
           {RESPONSIVE_NAVBAR_SOCIAL_ICONS.map((item, index) => (

@@ -18,10 +18,10 @@ const Footer = () => {
           href="/"
           className="text-lightGreen font-medium text-base md:text-lg cursor-pointer font-sans"
         >
-          Aman <span className="text-white opacity-90">Pachori</span>
+          Aayush <span className="text-white opacity-90">Adoni</span>
         </a>
         <p className="md:ml-10 text-sm text-gray-500 text-center">
-          © Aman Pcahori. All Rights Reserved
+          © AayushAoni. All Rights Reserved
         </p>
       </div>
       <div className="flex items-center mt-7 md:mt-0">

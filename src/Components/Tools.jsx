@@ -1,12 +1,7 @@
 import React from "react";
-import { FaGitAlt, FaGithub, FaAws, FaGitlab } from "react-icons/fa";
-import { DiHeroku } from "react-icons/di";
+import { FaGitAlt, FaGithub} from "react-icons/fa";
 import {
-  SiNetlify,
-  SiPostman,
-  SiFirebase,
-  SiDocker,
-  SiVercel,
+  SiVercel,SiRemix
 } from "react-icons/si";
 const Tools = () => {
   return (
@@ -31,29 +26,12 @@ const Tools = () => {
           <p className="text-sm md:text-base text-lightGreen">Github</p>
         </div>
         <div className="flex flex-col items-center mx-3 my-4">
-          <SiPostman className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-sm md:text-base text-lightGreen">Postman</p>
+          <SiRemix className="text-3xl md:text-5xl text-gray-400" />
+          <p className="text-sm md:text-base text-lightGreen">Remix</p>
         </div>
-        <div className="flex flex-col items-center mx-3 my-4">
-          <FaGitlab className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-sm md:text-base text-lightGreen">Gitlab</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 my-4">
-          <SiDocker className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-sm md:text-base text-lightGreen">Docker</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 my-4">
-          <SiNetlify className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-sm md:text-base text-lightGreen">Netlify</p>
-        </div>
-
         <div className="flex flex-col items-center mx-3 my-4">
           <SiVercel className="text-3xl md:text-5xl text-gray-400" />
           <p className="text-sm md:text-base text-lightGreen">Vercel</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 my-4">
-          <DiHeroku className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-sm md:text-base text-lightGreen">Heroku</p>
         </div>
       </div>
     </div>

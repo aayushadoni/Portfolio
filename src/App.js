@@ -41,7 +41,7 @@ function App() {
       />
       <AboutMe reference={aboutSectionRef} />
       <SkillSection reference={skillsSectionRef} />
-      <ExperienceSection reference={experienceSectionRef} />
+      {/*<ExperienceSection reference={experienceSectionRef} />*/}
       <ProjectsSection reference={projectsSectionRef} />
       <ContactMeSection reference={contactSectionRef} />
       <Footer />

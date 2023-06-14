@@ -31,7 +31,7 @@ const HomeSection = ({ reference, contactSectionRef }) => {
           </p>
         </div>
         <h2 className="text-white text-3xl md:text-6xl font-bold mt-6">
-          Aman Pachori.
+          Aayush Adoni.
         </h2>
         <p className="mt-10 text-gray-400 w-full md:w-7/12">
           I am a Tech Enthusiast and a Software Engineer, seeking to leverage

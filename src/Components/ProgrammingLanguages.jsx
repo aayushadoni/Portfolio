@@ -1,7 +1,6 @@
 import React from "react";
-import { SiCplusplus, SiPython, SiTypescript } from "react-icons/si";
+import { SiCplusplus, SiSolidity, SiTypescript } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
-import { TbBrandGolang } from "react-icons/tb";
 
 const ProgrammingLanguages = () => {
   return (
@@ -36,8 +35,8 @@ const ProgrammingLanguages = () => {
           </p>
         </div>
         <div className="flex flex-col items-center mx-3 my-4">
-          <TbBrandGolang className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen md:text-base text-sm mt-1">Golang</p>
+          <SiSolidity className="text-3xl md:text-5xl text-gray-400" />
+          <p className="text-lightGreen md:text-base text-sm mt-1">Solidity</p>
         </div>
       </div>
     </div>

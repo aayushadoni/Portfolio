@@ -1,6 +1,6 @@
 import React from "react";
 import { DiMongodb, DiMysql } from "react-icons/di";
-import { SiPostgresql, SiRedis } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
 
 const Databases = () => {
   return (
@@ -16,17 +16,19 @@ const Databases = () => {
         Databases that I have practiced and have hands-on experience with
       </p>
       <div className="flex items-center flex-wrap mt-8 w-fulljustify-center">
-        <div className="flex flex-col items-center mx-3 my-4">
-          <DiMysql className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">MySQL</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 my-4">
-          <SiPostgresql className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">PostgreSQL</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 my-4">
-          <DiMongodb className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Mongo DB</p>
+        <div className="flex items-center flex-wrap mt-8 w-fulljustify-center">
+          <div className="flex flex-col items-center mx-3 my-4">
+            <DiMysql className="text-3xl md:text-5xl text-gray-400" />
+            <p className="text-lightGreen text-sm md:text-base ">MySQL</p>
+          </div>
+          <div className="flex flex-col items-center mx-3 my-4">
+            <SiPostgresql className="text-3xl md:text-5xl text-gray-400" />
+            <p className="text-lightGreen text-sm md:text-base ">PostgreSQL</p>
+          </div>
+          <div className="flex flex-col items-center mx-3 my-4">
+            <DiMongodb className="text-3xl md:text-5xl text-gray-400" />
+            <p className="text-lightGreen text-sm md:text-base ">Mongo DB</p>
+          </div>
         </div>
       </div>
     </div>

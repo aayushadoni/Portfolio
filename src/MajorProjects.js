@@ -1,32 +1,66 @@
 export const majorProjects = [
   {
-    name: "Blog App",
+    name: "Health Records Manager",
     description:
-      "The goal of the Blog App created with the MERN stack (MongoDB, Express.js, React, Node.js) is to provide a feature-rich platform for users to create, publish, and manage blog posts.",
-    githubLink: "https://github.com/AmanPachori/Blog-App",
-    liveLink: "https://blog-app-pi-one.vercel.app/",
+        "A decentralized database for hospitals that stores electronic health\n" +
+        "records of patients, has the additional functionality of transferring the\n" +
+        "records between the hospitals.",
+    githubLink: "https://github.com/aayushadoni/Health-Record-Manager",
+    liveLink: "",
     demoLink: "",
     imgLink:
-      "https://user-images.githubusercontent.com/84467090/211310560-99f508c4-6af1-4bee-a96d-3fe3c3f81e9c.png",
+        "https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/c3e5991984e3466bb0ffebf017252b36/projects/41dc2961a8f3478da0bf3c5679b2dee4/06d3cc3c-64d6-4b35-b784-efe5fc3ebdc3.jpeg",
     tools: [
-      "React",
-      "MongoDB Atlas",
+      "Next.js",
       "Node.js",
-      "Express.js",
-      "Bootstrap CSS",
-      "JWT",
-      "Vercel",
+      "Tailwind CSS",
+      "Solidity",
+      "Truffle",
+      "Ganache",
+      "Web3.js",
     ],
   },
   {
-    name: "Electronic Medical Record Manager",
+    name: "Soul Bound NFT",
     description:
-      "We have implemented three different logins (Owner, Hospitals, Patient) according to who has logged in to the web application the navigation bar changes dynamically,",
-    githubLink: "https://github.com/AmanPachori/EMR",
-    liveLink: "https://github.com/AmanPachori/EMR",
+        "A Website on which an admin can create a NFT on a third party address. The minted NFT is non-transferable and its metadata contains the\n" +
+        "owners detail such as name, address, date of birth, etc.",
+    githubLink: "https://github.com/aayushadoni/SoulBound-Aadhaar-NFT",
+    liveLink: "",
     demoLink: "",
     imgLink:
-      "https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/c3e5991984e3466bb0ffebf017252b36/projects/41dc2961a8f3478da0bf3c5679b2dee4/06d3cc3c-64d6-4b35-b784-efe5fc3ebdc3.jpeg",
-    tools: ["Next.js", "Bootstrap"],
+        "https://user-images.githubusercontent.com/78133084/238240414-5c28f3d1-744f-4c87-855d-7979aa9f6685.png",
+    tools: [
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Axios",
+      "IPFS",
+      "Pinata",
+      "Solidity",
+      "Truffle",
+      "Web3.js",
+    ],
+  },
+  {
+    name: "E-commerce Website",
+    description:
+        "Implemented smart contract which allows you to sell courses.The course has 3 Status : Purchased, Activated, Deactivated.One purchased the admin verifies the purchase and changes the status of the course.",
+    githubLink:
+        "https://github.com/aayushadoni/market_place",
+    liveLink: "",
+    demoLink: "",
+    imgLink:
+        "https://github.com/aayushadoni/market_place/assets/78133084/7bf1127b-12e4-4c26-8150-ae326ff210ac",
+    tools: [
+      "Next.js",
+      "Tailwind",
+      "Solidity",
+      "Truffle",
+      "Ganache",
+      "Web3.js",
+      "Metamask",
+      "Javascript"
+    ],
   },
 ];

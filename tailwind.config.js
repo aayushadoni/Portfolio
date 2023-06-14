@@ -9,7 +9,7 @@ module.exports = {
       lightblue: "#8da9c4",
       grey: "#edf2f4",
       slateGrey: "#2D2E32",
-      lightGreen: "#38bdf8",
+      lightGreen: "#f97316",
       darkGrey: "#25262A",
     }),
 
@@ -19,7 +19,7 @@ module.exports = {
       lightblue: "#8da9c4",
       grey: "#edf2f4",
       slateGrey: "#2D2E32",
-      lightGreen: "#38bdf8",
+      lightGreen: "#f97316",
       darkGrey: "#25262A",
     }),
     // borderColor: (theme) => ({

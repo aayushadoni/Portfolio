@@ -47,12 +47,6 @@ const Navbar = ({
       icon: <AiOutlineSetting className="text-3xl" />,
     },
     {
-      name: "Experience",
-      divid: "experiencesection",
-      ref: experienceSectionRef,
-      icon: <RiContactsBookLine className="text-3xl" />,
-    },
-    {
       name: "Projects",
       divid: "projects",
       ref: projectsSectionRef,
@@ -135,8 +129,8 @@ const Navbar = ({
           href="/"
           className="flex text-white md:text-lightGreen font-medium text-lg w-4/12 md:w-3/12 cursor-pointer font-sans"
         >
-          Aman{" "}
-          <span className="text-white opacity-90 block">&nbsp; Pachori</span>
+          Aayush{" "}
+          <span className="text-white opacity-90 block">&nbsp; Adoni</span>
         </a>
         <div className="hidden md:flex items-center font-mono float-right top-0 w-6/12">
           {buttonData.map((item, index) => (
