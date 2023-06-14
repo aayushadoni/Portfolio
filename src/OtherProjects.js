@@ -3,7 +3,7 @@ export const OtherProjects = [
     name: "Portfolio Website",
     description:
         "This portfolio is made using React.js , Tailwind CSS, React Icons and JS(ES-7).",
-    link: "https://github.com/Kawaljeet2001/Portfolio",
+    link: "https://github.com/aayushadoni/Portfolio",
   },
   {
     name: "Blog App",
