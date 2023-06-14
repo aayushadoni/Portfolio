@@ -4,7 +4,7 @@ export const RESUME_URL = "https://drive.google.com/file/d/1Zs936n-y7DiZV5J3Td2k
 export const INSTAGRAM_URL = "https://www.instagram.com/snapsbyaayush/";
 export const EMAIL_URL = "mailto:aayushadoni1@gmail.com";
 export const ARTSTATIONURL = "https://www.artstation.com/kawal2001singh"
-export const LOCATION_URL = "https://goo.gl/maps/RaDYVrVw9Vhz8amA9";
+export const LOCATION_URL = "https://goo.gl/maps/p4zDh3Kg4Uhunes6A";
 export const PROFILE_PHOTO_URL = "https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?w=360";
 
 export const LEETCODE_URL = "https://leetcode.com/batrakawaljeetsingh/";
