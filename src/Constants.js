@@ -7,8 +7,8 @@ export const ARTSTATIONURL = ""
 export const LOCATION_URL = "https://goo.gl/maps/p4zDh3Kg4Uhunes6A";
 export const PROFILE_PHOTO_URL = "https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?w=360";
 
-export const LEETCODE_URL = "https://leetcode.com/batrakawaljeetsingh/";
+export const LEETCODE_URL = "";
 export const GEEKSFORGEEKS_URL =
-  "https://auth.geeksforgeeks.org/user/kawaljeet/profile";
+  "";
 export const HACKERRANK_URL =
-  "https://www.hackerrank.com/batrakawaljeets1?hr_r=1";
+  "";
